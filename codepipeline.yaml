@@ -32,7 +32,7 @@ Parameters:
     Default: "GitHub"
   FullRepositoryId:
     Type: String
-    Default: "cool233777/sam-proyect02.git"
+    Default: "cool233777/sam-proyect02"
   MainGitBranch:
     Type: String
     Default: "main"
@@ -47,10 +47,10 @@ Parameters:
     Default: "sam-app"
   TestingPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::038462753284:role/samPipeLineStack02-CodePipelineExecutionRole-XA9YVfkjvnfE"
+    Default: "arn:aws:iam::038462753284:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-kjUnsYW3lwU5"
   TestingCloudFormationExecutionRole:
     Type: String
-    Default: "arn:aws:iam::038462753284:role/samPipeLineStack02-PipelineStackCloudFormationExecu-6QtheQi2mB2V"
+    Default: "arn:aws:iam::038462753284:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-49OvZBvH2N7s"
   TestingArtifactBucket:
     Type: String
     Default: "aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-rqd3axx84w38"
@@ -68,10 +68,10 @@ Parameters:
     Default: "sam-app"
   ProdPipelineExecutionRole:
     Type: String
-    Default: "arn:aws:iam::038462753284:role/samPipeLineStack02-CodePipelineExecutionRole-XA9YVfkjvnfE"
+    Default: "arn:aws:iam::038462753284:role/aws-sam-cli-managed-prod-pipe-PipelineExecutionRole-rhWY9O4icjBE"
   ProdCloudFormationExecutionExeRole:
     Type: String
-    Default: "arn:aws:iam::038462753284:role/samPipeLineStack02-PipelineStackCloudFormationExecu-6QtheQi2mB2V"
+    Default: "arn:aws:iam::038462753284:role/aws-sam-cli-managed-prod--CloudFormationExecutionRo-yN5kbySPfvkC"
   ProdArtifactBucket:
     Type: String
     Default: "aws-sam-cli-managed-prod-pipeline--artifactsbucket-8dlsmt1weol0"
