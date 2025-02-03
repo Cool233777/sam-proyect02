@@ -158,7 +158,7 @@ Resources:
           Condition:
             StringEquals:
               AWS:SourceArn: !Join ['', ['arn:aws:cloudfront::', !Ref "AWS::AccountId",
-                  :distribution/, !Ref CloudFrontDistribution]]
+                  ':distribution/', !Ref CloudFrontDistribution]]
   # CloudFront Distribution for hosting the single page app website
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
